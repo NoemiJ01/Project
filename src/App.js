@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import RangeInput from "./Components/RangeInput";
+import SelectInput from "./Components/SelectInput";
 
 class App extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class App extends Component {
       <div className="container">
         <ul className="cards">
           <RangeInput />
+          <SelectInput />
         </ul>
       </div>
     );
