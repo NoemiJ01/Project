@@ -8,16 +8,15 @@ class App extends Component {
     this.state = {};
   }
 
-  class App extends Component {
-    render() {
-      return (
-        <div className="container">
-          <ul className="cards">
-            <RangeInput />
-          </ul>
-        </div>
-      );
-    }
+  render() {
+    return (
+      <div className="container">
+        <ul className="cards">
+          <RangeInput />
+        </ul>
+      </div>
+    );
   }
+}
 
 export default App;

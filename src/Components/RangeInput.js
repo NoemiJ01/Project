@@ -19,7 +19,7 @@ class RangeInput extends Component {
         <div className="card">
           <div className="card-content">
             <div className="card-image"></div>
-            <div className="card-title">Range Slider</div>
+            <div className="card-title">Price Range</div>
             <p className="card-text">
               <div className="input">
                 <input
@@ -29,7 +29,7 @@ class RangeInput extends Component {
                 />
               </div>
               <div className="output">
-                <label for="rangeOutput">State: </label>
+                <label for="rangeOutput">$ </label>
                 <span name="rangeOutput">{this.state.range}</span>
               </div>
             </p>
