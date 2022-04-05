@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Navbar from "./Components/Navbar";
 import RangeInput from "./Components/RangeInput";
 import SelectInput from "./Components/SelectInput";
 
@@ -13,6 +14,7 @@ class App extends Component {
     return (
       <div className="container">
         <ul className="cards">
+          <Navbar />
           <RangeInput />
           <SelectInput />
         </ul>
