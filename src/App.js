@@ -15,8 +15,6 @@ class App extends Component {
       <div className="container">
         <ul className="cards">
           <Navbar />
-          <RangeInput />
-          <SelectInput />
         </ul>
       </div>
     );
