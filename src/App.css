@@ -1,7 +1,18 @@
 .App {
   text-align: center;
 }
+.navbar button {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  text-align: right;
+}
 
+.navbar button:focus {
+  outline: 0;
+}
+.list {
+  text-align: left;
+}
 .btn {
   background-color: #f9f9f9;
   border: 1px solid #cccccc;

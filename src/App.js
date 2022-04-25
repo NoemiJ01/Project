@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Navbar from "./Components/Navbar";
 
 class App extends Component {
   constructor(props) {
@@ -28,8 +29,9 @@ class App extends Component {
         <section className="list">
           {/* PUT API RESPONSE DATA HERE */}
           <ul>
+          <Navbar />
             {this.state.data.map((restaurant) => (
-              <li>{restaurant.dba}</li>
+              <p>{restaurant.dba}</p>
             ))}
           </ul>
         </section>
