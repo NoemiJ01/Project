@@ -9,9 +9,10 @@
 
 .navbar button:focus {
   outline: 0;
+  text-align: right;
 }
 .list {
-  text-align: left;
+  text-align: center;
 }
 .btn {
   background-color: #f9f9f9;

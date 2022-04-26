@@ -9,7 +9,21 @@ class App extends Component {
       data: []
     };
   }
-  componentDidMount = () => {
+  
+  };
+  render() {
+    return (
+      <div className="App">
+        <h1>Food Violations</h1>
+        <section className="list">
+        <button type="button" class="btn btn-primary">
+          Find restaurants
+        </button>
+        <div className="grid">
+          {this.state.data.map((restaurant) => (
+            <ButtonCard student={restaurant} />
+          ))}
+          componentDidMount = () => {
     fetch(
       "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$$app_token=v9CzGzRoHQTpZejn2Bqdz0XPy"
     )
@@ -21,13 +35,6 @@ class App extends Component {
       .catch((e) => {
         console.log(e);
       });
-  };
-  render() {
-    return (
-      <div className="App">
-        <h1>Food Violations</h1>
-        <section className="list">
-          {/* PUT API RESPONSE DATA HERE */}
           <ul>
           <Navbar />
             {this.state.data.map((restaurant) => (
